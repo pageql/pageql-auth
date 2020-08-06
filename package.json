@@ -22,9 +22,12 @@
     "url": "https://github.com/pageql/pageql-auth/issues"
   },
   "homepage": "https://github.com/pageql/pageql-auth#readme",
-  "devDependencies": {
+  "dependencies": {
     "magic-string": "^0.25.7",
     "parse5": "^6.0.1",
     "svelte": "^3.24.0"
+  },
+  "devDependencies": {
+      "np": "^6.2.4"
   }
 }
