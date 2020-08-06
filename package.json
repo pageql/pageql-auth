@@ -1,0 +1,30 @@
+{
+  "name": "@pageql/pageql-auth",
+  "version": "1.0.0",
+  "description": "PageQL Authentiction and Authorization helpers for Svelte",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pageql/pageql-auth.git"
+  },
+  "keywords": [
+    "auth",
+    "authentication",
+    "authorization",
+    "svelte"
+  ],
+  "author": "Conner Aldrich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pageql/pageql-auth/issues"
+  },
+  "homepage": "https://github.com/pageql/pageql-auth#readme",
+  "devDependencies": {
+    "magic-string": "^0.25.7",
+    "parse5": "^6.0.1",
+    "svelte": "^3.24.0"
+  }
+}

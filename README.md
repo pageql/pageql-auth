@@ -1,0 +1,2 @@
+# [PageQL Auth](https://pageql.dev) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/pageql/pageql-auth/blob/master/LICENSE) [![npm version](https://img.shields.io/npm/v/pageql/pageql-auth.svg?style=flat)](https://www.npmjs.com/package/@pageql/pageql-auth) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://reactjs.org/docs/how-to-contribute.html#your-first-pull-request)
+PageQL Authentiction and Authorization helpers for Svelte
