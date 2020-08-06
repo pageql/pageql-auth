@@ -9,7 +9,7 @@ function walkAst(doc, action) {
     }
 }
 
-export function findVerbatimElements(htmlx) {
+function findVerbatimElements(htmlx) {
     const elements = [];
     const tagNames = ['script', 'style'];
 
@@ -84,7 +84,7 @@ export function findVerbatimElements(htmlx) {
     return elements;
 }
 
-export function blankVerbatimContent(htmlx, verbatimElements) {
+function blankVerbatimContent(htmlx, verbatimElements) {
     let output = htmlx;
     for (const node of verbatimElements) {
         const content = node.content;
@@ -98,7 +98,7 @@ export function blankVerbatimContent(htmlx, verbatimElements) {
     return output;
 }
 
-export function parseHtmlx(htmlx) {
+module.exports.parseHtmlx = (htmlx) => {
     //Svelte tries to parse style and script tags which doesn't play well with typescript, so we blank them out.
     //HTMLx spec says they should just be retained after processing as is, so this is fine
     const verbatimElements = findVerbatimElements(htmlx);
