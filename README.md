@@ -6,13 +6,13 @@ Get started by installing to an existing Svelte project
 
 Adding PageQL to your rollup config
 ```
-import { pageqlPreproccesor } from '@pageql/pageql-auth';
+import { pageqlAuthPreprocess } from '@pageql/pageql-auth';
 ...
 plugins: [
     svelte({
         ...
         preprocess: [
-            pageqlPreproccesor(),
+            pageqlAuthPreprocess(),
         ]
     }),
     ...
